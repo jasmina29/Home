@@ -1,0 +1,438 @@
+html{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+html{
+display: block;
+margin: 0;
+padding: 0;
+}
+
+
+
+body {
+background-color: #f5f7fa;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 20px;
+padding-right: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+
+body {
+margin: 0;
+display: block;
+}
+
+
+.wrapper {
+background: #ffffff;
+display: flex;
+max-width: 1200px;
+margin: 0 auto;
+box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar-wrapper {
+background: #1e2939;
+width: 370px;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+
+
+.profile-photo{
+width: 370px;
+}
+
+.container-block{
+font-size: 22px;
+font-weight: bold;
+line-height: 26px;
+color: #fff;
+margin-top: 20px;
+margin-left: 20px;
+
+}
+
+.tel{
+font-family: 'Montserrat';
+color: #ffffff;
+
+}
+
+.c-type{font-size: 14px;
+font-weight: 600;
+font-family: 'Montserrat';
+line-height: 24px;
+color: #fff;
+margin-top: 20px;
+margin-left:20px}
+
+
+.e-mail{
+font-family: 'Montserrat';
+}
+
+.e-mail a:link { color: pink; text-decoration: underline; }
+
+.e-type{
+
+font-size: 14px;
+font-weight: 600;
+font-family: 'Montserrat';
+line-height: 24px;
+color: #fff;
+margin-top: 20px;
+margin-left: 20px;}
+
+
+
+
+.tech_skills h3{
+font-size: 22px;
+font-weight: bold;
+line-height: 26px;
+color: #fff;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.skills li {
+list-style-type: none;
+}
+
+.skills li::before {
+color: orange; 
+content: "▪"; 
+padding-right: 10px; /* расстояние от маркера до текста */
+}
+
+
+.tech li {
+list-style-type: none; /* прячем исходные маркеры */
+}
+
+.tech li::before {
+color: orange; /* цвет маркера */
+content: "▪"; /* сам маркер */
+padding-right: 10px; /* расстояние от маркера до текста */
+}
+
+.tech li span {
+color: #ffffff;
+font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-transform: uppercase;
+letter-spacing: 0.42px;
+}
+
+.soft-skills h3{
+font-size: 22px;
+font-weight: bold;
+line-height: 26px;
+color: #fff;
+margin-top: 20px;
+margin-left: 20px;  
+}
+
+.skills li{
+color: #ffffff;
+font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-transform: uppercase;
+letter-spacing: 0.42px;
+}
+
+
+
+.main-wrapper{
+padding-left: 90px;
+padding-right: 90px;
+padding-top: 110px;
+padding-bottom: 110px;
+}
+
+.summary-section{
+margin-bottom: 65px; 
+
+}
+
+
+.section-title h4{
+margin-bottom: 65px; 
+color: #000000;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: bold;
+line-height: 24px;
+letter-spacing: 0.42px; 
+}
+
+
+
+.section-title h1{
+margin-bottom: 65px; 
+color: #000000;
+font-family: Montserrat;
+font-size: 45px;
+font-weight: 700;
+line-height: 89px; 
+}
+
+.summary{
+margin-bottom: 65px;
+color: #595959;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px; 
+}
+
+.projects-link{
+font-weight: normal;
+}
+
+section {
+display: block;
+}
+
+
+.experiences-section{
+margin-bottom: 65px;
+}
+
+.section-links{
+color: #000000;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 24px; 
+}
+
+.rounded{
+margin-bottom: 65px;
+color: #595959;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+
+
+ol.rounded a{
+color: #595959;
+}
+
+ol.rounded a:hover{
+color: #ff6b08; text-decoration: underline; 
+background: rgb(160, 197, 238);
+}
+
+.rounded li{
+list-style-type: (decimal) ;/*десятичные числа*/
+color:  rgb(79, 184, 184);
+font-weight: bold; 
+pading-right: 0.7em;
+}
+
+
+ol.rounded li span {
+color: rgb(0, 0, 0); /* Цвет текста */
+}
+
+a:link {
+color: rgb(219, 218, 218); text-decoration: none;
+}
+
+a:hover { 
+color: #ff6b08; text-decoration: underline; 
+background: rgb(160, 197, 238);
+}
+
+
+span.bold {
+font-weight: bold;
+}
+
+.projects-section{
+margin-bottom:65px;
+}
+
+.colortext {
+color: #ff6b08; /* цвет выделения */
+}
+
+.section-title{
+color: #000000;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;
+}
+
+.section-zero{
+color: #000000;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.48px;
+}
+
+.section-txtx{
+color: #a8a8a8;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.36px;
+}
+
+.info{
+margin-bottom: 65px;
+color: #595959;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px; 
+}
+
+.kopyta-new{
+margin-bottom: 65px;  
+}
+
+.section-one{
+color: #000000;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;
+}
+
+
+.section-rocket{
+color: #a8a8a8;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.36px;
+}
+
+.fa-fa{
+margin-bottom: 65px;
+color: #595959;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;  
+}
+
+
+.kopyta-llc{
+margin-bottom: 65px;
+}
+
+.section-llc{
+color: #000000;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;
+}
+
+.section-june{
+color: #a8a8a8;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.36px;  
+}
+
+
+.june-febrari{
+margin-bottom: 65px;
+color: #595959;
+font-family: 'Montserrat';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+
+.universeti{
+color: #000000;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;  
+}
+
+
+.section-three{
+color: #ff6b08;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.48px;
+
+}
+
+.section-universeti{
+color: #000000;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+
+
+.section-education{
+color: #a8a8a8;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.36px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
